@@ -1,7 +1,20 @@
+import Image from "next/image";
+
 const Home = () => {
     return (
-        <div className="text-red-600 underline">
-            hello world
+        <div className="flex h-screen max-h-screen">
+            <section className="remove-scrollbar container my-auto">
+                <div className="sub-container max-w-[496px]">
+                    <Image
+                        src="/assets/icons/logo-full.svg"
+                        alt="logo"
+                        width={1000}
+                        height={1000}
+                        priority={true}
+                        className="mb-12 h-10 w-fit"
+                    />
+                </div>
+            </section>
         </div>
     )
 }
