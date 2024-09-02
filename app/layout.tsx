@@ -4,6 +4,7 @@ import { Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import { ThemeProvider } from "next-themes";
 
 import { cn } from "@/lib/utils";
+import React from "react";
 
 const fontSans = FontSans({
     subsets: ["latin"],
