@@ -1,9 +1,9 @@
-import Image from "next/image";
-
-export default function Home() {
-  return (
-    <div>
-      <h1 className="text-white">hello word</h1>
-    </div>
-  );
+const Home = () => {
+    return (
+        <div className="text-red-600 underline">
+            hello world
+        </div>
+    )
 }
+
+export default Home
