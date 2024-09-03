@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="更新,初始化">
-      <change afterPath="$PROJECT_DIR$/components/forms/PatientForm.tsx" afterDir="false" />
+    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="进度更新">
+      <change afterPath="$PROJECT_DIR$/components/Keypassmodel/PasskeyModel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button/SubmitButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/compentsCustom/CustomFormField.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/theme-provider.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/icons/logo-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icons/logo-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/forms/PatientForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/PatientForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +48,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\projectXTC\\Ruest\\poject\\webstron\\aora\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.last.introduce.type": "CONST",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "F:\\projectXTC\\Ruest\\poject\\webstron\\aora\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\projectXTC\Ruest\poject\webstron\aora\app" />
       <recent name="F:\projectXTC\Ruest\poject\webstron\aora" />
     </key>
   </component>
@@ -98,7 +102,7 @@
       <workItem from="1725243684239" duration="5710000" />
       <workItem from="1725259456258" duration="2317000" />
       <workItem from="1725263774718" duration="6940000" />
-      <workItem from="1725322363976" duration="5555000" />
+      <workItem from="1725322363976" duration="16110000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -148,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725270740323</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="进度更新">
+      <option name="closed" value="true" />
+      <created>1725329937274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725329937274</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
     <MESSAGE value="更新,初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新,初始化" />
+    <MESSAGE value="进度更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="进度更新" />
   </component>
 </project>
