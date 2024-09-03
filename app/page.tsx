@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PatientForm from "@/components/forms/PatientForm";
 
 const Home = () => {
     return (
@@ -13,6 +14,14 @@ const Home = () => {
                         priority={true}
                         className="mb-12 h-10 w-fit"
                     />
+
+                    <PatientForm />
+
+                    <div className="text-14-regular mt-20 flex justify-between">
+                        <p>
+                            © 2024 医疗预约
+                        </p>
+                    </div>
                 </div>
             </section>
         </div>

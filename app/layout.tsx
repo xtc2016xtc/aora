@@ -13,9 +13,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-    title: "CarePulse",
+    title: "医疗预约",
     description:
-        "A healthcare patient management System designed to streamline patient registration, appointment scheduling, and medical records management for healthcare providers.",
+        "医疗预约系统，简化病人预约流程",
     icons: {
         icon: "/assets/icons/logo-icon.svg",
     },
@@ -27,7 +27,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="zh-CN">
         <body
             className={cn(
                 "min-h-screen bg-dark-300 font-sans antialiased",
