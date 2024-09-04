@@ -14,6 +14,12 @@ const formSchema = z.object({
 
 export enum FormFieldType {
     INPUT="input",
+    TEXTAREA = "textarea",
+    PHONE_INPUT="phoneInput",
+    CHECKBOX = "checkbox",
+    DATE_PICKER = "datePicker",
+    SELECT = "select",
+    SKELETON = "skeleton",
 }
 
 const PatientForm = () => {
@@ -40,8 +46,27 @@ const PatientForm = () => {
                 <CustomFormField
                     control={form.control}
                     fieldType={FormFieldType.INPUT}
-                    name="username"
-                    platform="账户"
+                    name="name"
+                    label="Full Name"
+                    placeholder="Admin bear"
+                    iconSrc="/assets/icons/user.svg"
+                    iconAlt="name"
+                />
+                <CustomFormField
+                    control={form.control}
+                    fieldType={FormFieldType.INPUT}
+                    name="email"
+                    label="Email"
+                    placeholder="adminBear@qq.com"
+                    iconSrc="/assets/icons/email.svg"
+                    iconAlt="email"
+                />
+                <CustomFormField
+                    control={form.control}
+                    fieldType={FormFieldType.PHONE_INPUT}
+                    name="phone"
+                    label="Phone Number"
+                    placeholder="(555) 123-4567"
                 />
 
                 <SubmitButton isLoading={isLoading}>开始</SubmitButton>

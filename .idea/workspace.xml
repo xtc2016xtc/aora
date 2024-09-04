@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="完成初始与验证蒙版">
+    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="完善">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/compentsCustom/CustomFormField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/compentsCustom/CustomFormField.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/forms/PatientForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/PatientForm.tsx" afterDir="false" />
     </list>
@@ -99,7 +98,7 @@
       <workItem from="1725263774718" duration="6940000" />
       <workItem from="1725322363976" duration="17552000" />
       <workItem from="1725354376335" duration="88000" />
-      <workItem from="1725407484761" duration="7898000" />
+      <workItem from="1725407484761" duration="12715000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -165,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725353694561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完善">
+      <option name="closed" value="true" />
+      <created>1725435238881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725435238881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +183,7 @@
     <MESSAGE value="更新,初始化" />
     <MESSAGE value="进度更新" />
     <MESSAGE value="完成初始与验证蒙版" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成初始与验证蒙版" />
+    <MESSAGE value="完善" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善" />
   </component>
 </project>
