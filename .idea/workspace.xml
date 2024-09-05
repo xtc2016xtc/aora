@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="自定义组件封装">
+    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="优化初始化页面，完成组件编写逻辑">
+      <change afterPath="$PROJECT_DIR$/lib/actions/patient.actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/appwrite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/forms/PatientForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/PatientForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +102,7 @@
       <workItem from="1725322363976" duration="17552000" />
       <workItem from="1725354376335" duration="88000" />
       <workItem from="1725407484761" duration="15523000" />
-      <workItem from="1725497755703" duration="3407000" />
+      <workItem from="1725497755703" duration="13339000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -181,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725441225822</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="优化初始化页面，完成组件编写逻辑">
+      <option name="closed" value="true" />
+      <created>1725510892983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725510892983</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +216,7 @@
     <MESSAGE value="完成初始与验证蒙版" />
     <MESSAGE value="完善" />
     <MESSAGE value="自定义组件封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义组件封装" />
+    <MESSAGE value="优化初始化页面，完成组件编写逻辑" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化初始化页面，完成组件编写逻辑" />
   </component>
 </project>
