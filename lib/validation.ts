@@ -3,12 +3,12 @@ import { z } from "zod";
 export const UserFormValidation = z.object({
     name: z
         .string()
-        .min(2, "Name must be at least 2 characters")
-        .max(50, "Name must be at most 50 characters"),
-    email: z.string().email("Invalid email address"),
+        .min(2, "最少俩个字符")
+        .max(50, "最多俩个字符"),
+    email: z.string().email("邮箱无效"),
     phone: z
         .string()
-        .refine((phone) => /^\+\d{10,15}$/.test(phone), "Invalid phone number"),
+        .refine((phone) => /^\+\d{10,15}$/.test(phone), "无效的电话号码"),
 });
 
 export const PatientFormValidation = z.object({

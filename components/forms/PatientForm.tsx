@@ -6,11 +6,8 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import React, {useState} from "react";
 import { z } from "zod"
-const formSchema = z.object({
-    username: z.string().min(2,{
-        message:"最大输入俩个字符"
-    })
-})
+import {UserFormValidation} from "@/lib/validation";
+
 
 export enum FormFieldType {
     INPUT="input",
@@ -25,14 +22,16 @@ export enum FormFieldType {
 const PatientForm = () => {
     const [isLoading, setIsLoading] = useState(false)
 
-    const form = useForm<z.infer<typeof formSchema>>({
-        resolver: zodResolver(formSchema),
+    const form = useForm<z.infer<typeof UserFormValidation>>({
+        resolver: zodResolver(UserFormValidation),
         defaultValues: {
-            username: "",
+            name: "",
+            email:"",
+            phone:"",
         },
     })
 
-    function onSubmit(values: z.infer<typeof formSchema>) {
+    function onSubmit(values: z.infer<typeof UserFormValidation>) {
         console.log(values)
     }
     return (
@@ -47,7 +46,7 @@ const PatientForm = () => {
                     control={form.control}
                     fieldType={FormFieldType.INPUT}
                     name="name"
-                    label="Full Name"
+                    label="账户"
                     placeholder="Admin bear"
                     iconSrc="/assets/icons/user.svg"
                     iconAlt="name"
@@ -56,7 +55,7 @@ const PatientForm = () => {
                     control={form.control}
                     fieldType={FormFieldType.INPUT}
                     name="email"
-                    label="Email"
+                    label="接收信息的邮件"
                     placeholder="adminBear@qq.com"
                     iconSrc="/assets/icons/email.svg"
                     iconAlt="email"
@@ -65,11 +64,11 @@ const PatientForm = () => {
                     control={form.control}
                     fieldType={FormFieldType.PHONE_INPUT}
                     name="phone"
-                    label="Phone Number"
+                    label="电话号码"
                     placeholder="(555) 123-4567"
                 />
 
-                <SubmitButton isLoading={isLoading}>开始</SubmitButton>
+                <SubmitButton isLoading={isLoading}>前往预约</SubmitButton>
             </form>
         </Form>
     )
