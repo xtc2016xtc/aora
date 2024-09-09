@@ -17,7 +17,7 @@
 
     .remove-scrollbar::-webkit-scrollbar-thumb {
         background: transparent;
-        border-radius: 0px;
+        border-radius: 0;
     }
 
     .remove-scrollbar::-webkit-scrollbar-thumb:hover {
