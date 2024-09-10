@@ -1,15 +1,11 @@
 import Image from "next/image";
-import PasskeyModel from "@/components/Keypassmodel/PasskeyModel";
-import PatientForm from "@/components/forms/PatientForm";
 import Link from "next/link";
 import RegisterForm from "@/components/forms/RegisterForm";
 
-const Register = ({ searchParams }: SearchParamProps) => {
-    const isAdmin = searchParams?.admin === "true";
+const Register = () => {
     return (
         <div className="flex h-screen max-h-screen">
-            {isAdmin && <PasskeyModel/>}
-            <section className="remove-scrollbar scrollbar-hide container my-auto">
+            <section className="remove-scrollbar scrollbar-hide container">
                 <div className="sub-container max-w-[496px]">
                     <Image
                         src="/assets/icons/logo-full.svg"

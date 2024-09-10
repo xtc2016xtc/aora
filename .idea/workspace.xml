@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="后端云服务器appwrite,数据库创建完成">
-      <change afterPath="$PROJECT_DIR$/app/patients/[userId]/register/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/compentsCustom/ThemeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/patients/[userId]/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/patients/[userId]/register/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

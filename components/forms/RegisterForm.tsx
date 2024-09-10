@@ -67,23 +67,24 @@ const RegisterForm = () => {
                     iconSrc="/assets/icons/user.svg"
                     iconAlt="name"
                 />
-                <CustomFormField
-                    control={form.control}
-                    fieldType={FormFieldType.INPUT}
-                    name="email"
-                    label="接收信息的邮件"
-                    placeholder="adminBear@qq.com"
-                    iconSrc="/assets/icons/email.svg"
-                    iconAlt="email"
-                />
-                <CustomFormField
-                    control={form.control}
-                    fieldType={FormFieldType.PHONE_INPUT}
-                    name="phone"
-                    label="电话号码"
-                    placeholder="(555) 123-4567"
-                />
-
+                <div className="flex flex-col gap-6 xl:flex-row">
+                    <CustomFormField
+                        control={form.control}
+                        fieldType={FormFieldType.INPUT}
+                        name="email"
+                        label="接收信息的邮件"
+                        placeholder="adminBear@qq.com"
+                        iconSrc="/assets/icons/email.svg"
+                        iconAlt="email"
+                    />
+                    <CustomFormField
+                        control={form.control}
+                        fieldType={FormFieldType.PHONE_INPUT}
+                        name="phone"
+                        label="电话号码"
+                        placeholder="(555) 123-4567"
+                    />
+                </div>
                 <SubmitButton isLoading={isLoading}>前往预约</SubmitButton>
             </form>
         </Form>
