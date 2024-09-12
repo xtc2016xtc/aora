@@ -1,8 +1,7 @@
 import Image from "next/image";
-import {Button} from "@/components/ui/button";
+
+import { Button } from "@/components/ui/button";
 import React from "react";
-
-
 
 interface ButtonProps {
     isLoading: boolean;

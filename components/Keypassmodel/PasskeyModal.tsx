@@ -16,7 +16,7 @@ import {InputOTP, InputOTPGroup, InputOTPSlot} from "@/components/ui/input-otp";
 import {useState} from "react";
 import {useRouter} from "next/navigation";
 
-const  PasskeyModel = () => {
+const  PasskeyModal = () => {
     const [open, setOpen] = useState(true);
     const [passkey, setPasskey] = useState("");
     const [error, setError] = useState("");
@@ -72,4 +72,4 @@ const  PasskeyModel = () => {
     )
 }
 
-export default PasskeyModel
+export default PasskeyModal
