@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="表格修改，并完善bug">
-      <change afterPath="$PROJECT_DIR$/components/Keypassmodel/FileUploader.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/patients/[userId]/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/patients/[userId]/register/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Keypassmodel/PasskeyModel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Keypassmodel/PasskeyModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/SubmitButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/button/SubmitButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/compentsCustom/CustomFormField.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/compentsCustom/CustomFormField.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/compentsCustom/ThemeProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/compentsCustom/ThemeProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/forms/PatientForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/PatientForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/patient.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/patient.actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/validation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Keypassmodel/FileUploader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Keypassmodel/FileUploader.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +102,9 @@
       <workItem from="1725606577338" duration="3149000" />
       <workItem from="1725843728434" duration="3074000" />
       <workItem from="1725852223376" duration="11642000" />
-      <workItem from="1726102884982" duration="13567000" />
+      <workItem from="1726102884982" duration="13707000" />
+      <workItem from="1726136126972" duration="627000" />
+      <workItem from="1726186718878" duration="4692000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -245,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725964546269</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="表格修改，并完善bug">
+      <option name="closed" value="true" />
+      <created>1726133236886</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726133236886</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
