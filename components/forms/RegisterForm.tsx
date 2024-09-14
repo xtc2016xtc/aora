@@ -101,7 +101,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                             fieldType={FormFieldType.SKELETON}
                             control={form.control}
                             name="gender"
-                            label="Gender"
+                            label="性别"
                             renderSkeleton={(field) => (
                                 <FormControl>
                                     <RadioGroup
