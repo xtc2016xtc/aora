@@ -33,7 +33,7 @@ export const createUser = async (user: CreateUserParams) => {
 
             return existingUser.users[0];
         }
-        console.error("错误:", error);
+        console.error("没有信息数据:", error);
     }
 };
 
@@ -45,7 +45,7 @@ export const getUser = async (userId: string) => {
         return parseStringify(user);
     } catch (error) {
         console.error(
-            "get读取失败:",
+            "获取病人信息失败:",
             error
         );
     }
@@ -95,14 +95,10 @@ export const getPatient = async (userId: string) => {
             PATIENT_COLLECTION_ID!,
             [Query.equal("userId", [userId])]
         );
-        console.log("sss",patients)
+        console.log("暂时没有病人预约",patients)
         return parseStringify(patients.documents[0]);
 
     } catch (error) {
-        // console.error(
-        //     "找不到:",
-        //     error
-        // );
-        console.log("getPatient");
+        console.error("没有病人预约医生:", error);
     }
 };

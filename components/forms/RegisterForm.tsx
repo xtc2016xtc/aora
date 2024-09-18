@@ -94,7 +94,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                             fieldType={FormFieldType.DATE_PICKER}
                             control={form.control}
                             name="birthDate"
-                            label="出生日期"
+                            label="预约时间"
                         />
 
                         <CustomFormField
