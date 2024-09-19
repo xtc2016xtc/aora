@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="修改bug">
+    <list default="true" id="6a515e2a-1037-406c-bb61-4ed4b8dc89c7" name="更改" comment="修改bug，并完善注册表格">
+      <change afterPath="$PROJECT_DIR$/components/component/MaskComponent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/forms/RegisterForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/actions/patient.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actions/patient.actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -107,7 +107,8 @@
       <workItem from="1726136126972" duration="627000" />
       <workItem from="1726186718878" duration="7251000" />
       <workItem from="1726278158632" duration="4784000" />
-      <workItem from="1726620505859" duration="9235000" />
+      <workItem from="1726620505859" duration="10329000" />
+      <workItem from="1726709047877" duration="5908000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <option name="closed" value="true" />
@@ -261,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726300210270</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="修改bug，并完善注册表格">
+      <option name="closed" value="true" />
+      <created>1726650239665</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726650239665</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +300,7 @@
     <MESSAGE value="后端云服务器appwrite,数据库创建完成" />
     <MESSAGE value="表格修改，并完善bug" />
     <MESSAGE value="修改bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改bug" />
+    <MESSAGE value="修改bug，并完善注册表格" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改bug，并完善注册表格" />
   </component>
 </project>

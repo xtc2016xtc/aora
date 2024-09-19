@@ -24,6 +24,7 @@ import "react-phone-number-input/style.css";
 import CustomFormField, {FormFieldType} from "@/components/compentsCustom/CustomFormField";
 import SubmitButton from "@/components/button/SubmitButton";
 import {FileUploader} from "@/components/Keypassmodel/FileUploader";
+import MaskComponent from "@/components/component/MaskComponent";
 
 
 const RegisterForm = ({ user }: { user: User }) => {
@@ -39,6 +40,8 @@ const RegisterForm = ({ user }: { user: User }) => {
             phone: "",
         },
     });
+
+
 
     const onSubmit = async (values: z.infer<typeof PatientFormValidation>) => {
         setIsLoading(true);
