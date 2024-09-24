@@ -24,7 +24,6 @@ import "react-phone-number-input/style.css";
 import CustomFormField, {FormFieldType} from "@/components/compentsCustom/CustomFormField";
 import SubmitButton from "@/components/button/SubmitButton";
 import {FileUploader} from "@/components/Keypassmodel/FileUploader";
-import MaskComponent from "@/components/component/MaskComponent";
 
 
 const RegisterForm = ({ user }: { user: User }) => {
@@ -67,6 +66,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                         fieldType={FormFieldType.INPUT}
                         control={form.control}
                         name="name"
+                        label="姓名"
                         placeholder="某xxx"
                         iconSrc="/assets/icons/user.svg"
                         iconAlt="user"
@@ -310,6 +310,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                         name="privacyConsent"
                         label="我已承认阅读隐私条款"
                     />
+                    {/**/}
                 </section>
 
                 <SubmitButton isLoading={isLoading}>提交并继续</SubmitButton>
