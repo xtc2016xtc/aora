@@ -71,11 +71,11 @@ export const Doctors = [
     },
     {
         image: "/assets/images/dr-cruz.png",
-        name: "Alyana Cruz",
+        name: "Alana Cruz",
     },
     {
         image: "/assets/images/dr-sharma.png",
-        name: "Hardik Sharma",
+        name: "Hardin Sharma",
     },
 ];
 
