@@ -313,7 +313,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                     {/**/}
                 </section>
 
-                <SubmitButton isLoading={isLoading}>提交并继续</SubmitButton>
+                <SubmitButton isLoading={isLoading}>1.44.07提交并继续</SubmitButton>
             </form>
         </Form>
     );
