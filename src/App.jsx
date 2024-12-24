@@ -1,4 +1,5 @@
-import Wheel from './Wheel';
+import Wheel from "./Flash_sale/Wheel.jsx";
+
 
 const App = () => {
   return (
