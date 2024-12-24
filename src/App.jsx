@@ -1,4 +1,3 @@
-import React from 'react';
 import Wheel from './Wheel';
 
 const App = () => {
