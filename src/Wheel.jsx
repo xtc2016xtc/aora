@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 const daysOfWeek = [
   { day: '星期一', startTime: '10:00', endTime: '11:00' },
@@ -12,6 +12,7 @@ const daysOfWeek = [
 
 const Wheel = () => {
   const [currentDay, setCurrentDay] = useState(null);
+  const [isInProgress, setIsInProgress] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,10 +21,12 @@ const Wheel = () => {
       const currentTime = now.toTimeString().slice(0, 5);
       const today = daysOfWeek[currentDayIndex];
 
-      if (today && today.startTime === currentTime) {
+      if (today && currentTime >= today.startTime && currentTime < today.endTime) {
         setCurrentDay(today.day);
+        setIsInProgress(true);
       } else {
         setCurrentDay(null);
+        setIsInProgress(false);
       }
     }, 1000);
 
@@ -33,6 +36,7 @@ const Wheel = () => {
   return (
     <div>
       <h1>{currentDay ? `秒杀活动时间: ${currentDay}` : '当前没有秒杀活动'}</h1>
+      {isInProgress && <h2>秒杀活动进行中</h2>}
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         {daysOfWeek.map((day, index) => (
           <div
