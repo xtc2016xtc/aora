@@ -21,13 +21,6 @@ const initialDaysOfWeek = [
 ];
 
 const Wheel = () => {
-  // 秒杀活动时间段
-  // 当前秒杀活动的星期几
-  // 秒杀活动是否进行中
-  // 结束时间
-  // 剩余时间
-  // 启动定时器
-  // 停止定时器
   const [daysOfWeek, setDaysOfWeek] = useState(initialDaysOfWeek), [currentDay, setCurrentDay] = useState(null), [isInProgress, setIsInProgress] = useState(false), [endTime, setEndTime] = useState(''), [remainingTime, setRemainingTime] = useState(''),
       // eslint-disable-next-line react-hooks/exhaustive-deps
       intervalRef = useRef(null), startInterval = () => {

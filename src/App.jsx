@@ -1,13 +1,18 @@
-import Wheel from "./Flash_sale/Wheel.jsx";
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Main from './man/Main';
+import Checkout from './pages/Checkout';
+import OrderStatus from './pages/OrderStatus';
 
 const App = () => {
   return (
-    <div className="text-red-400 bg-slate-700 min-h-screen flex flex-col items-center justify-center">
-      <h1 className="text-white text-3xl mb-4">首页</h1>
-      <Wheel />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/order-status" element={<OrderStatus />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
