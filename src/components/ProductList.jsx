@@ -2,6 +2,7 @@ import React from 'react';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
+
 const ProductList = ({ products, onAdd, onRemove }) => {
   return (
     <div className="flex flex-wrap justify-center gap-4">
