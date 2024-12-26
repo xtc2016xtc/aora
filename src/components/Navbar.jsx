@@ -57,7 +57,7 @@ const Navbar = () => {
       <div className="absolute right-6 top-0 h-[40px] w-auto hidden md:block">
         <div className='flex justify-between items-center space-x-2'>
         <img src="https://via.placeholder.com/40" alt="User" className="w-10 h-10 rounded-full" />
-          <span className="text-gray-700">152****895</span>
+          <span className="text-gray-700">152****8951</span>
           <span className="text-gray-700">用户名</span>
         </div>
         </div>
