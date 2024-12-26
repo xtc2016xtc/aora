@@ -2,15 +2,20 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Main from './man/Main';
 import Checkout from './pages/Checkout';
 import OrderStatus from './pages/OrderStatus';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/checkout" element={<Checkout />} />
-        <Route path="/order-status" element={<OrderStatus />} />
-      </Routes>
+      <div className="w-full">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/order-status" element={<OrderStatus />} />
+          {/* 添加其他路由 */}
+        </Routes>
+      </div>
     </Router>
   );
 };
