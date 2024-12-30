@@ -12,7 +12,6 @@ const exampleUsage = () => {
 };
 
 exampleUsage();*/
-
 /*
 *
 *  // 函数：撤销某个星期的秒杀活动
