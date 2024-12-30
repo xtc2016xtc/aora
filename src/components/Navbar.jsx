@@ -80,12 +80,12 @@ const Navbar = () => {
             >
               {item.name}
               {((hoveredIndex === index) || (hoveredIndex === null && activeIndex === index)) && (
-                <div className="absolute bottom-0 left-0 w-full h-1 bg-blue-500 transition-all duration-300"></div>
+                <div className="absolute top-0 left-0 w-full h-1 bg-blue-500 transition-all duration-300"></div>
               )}
             </NavLink>
           ))}
           <div
-            className="absolute bottom-0 h-1 bg-blue-500 transition-all duration-300"
+            className="absolute top-0 h-1 bg-blue-500 transition-all duration-300"
             style={indicatorStyle}
           ></div>
         </div>
